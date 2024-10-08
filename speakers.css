@@ -1,17 +1,13 @@
-.nina, .edwards, .david, .michael, .anna {
+
+.nina, .edwards, .david, .michael, .anna, .sarah, .eva, .linda {
 	height: 16em;
 	width: 14em;
 	
-	/*display: flex;
-	justify-content: center;
-	align-items: center;
-	background-size: cover;
-	background-position: center; */
 }
 .speakers {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 1em;
+	flex-direction: column;
+	padding: 1em; 
 	object-fit: cover;
+	
 }
