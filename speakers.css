@@ -1,54 +1,89 @@
-
 body {
-	background-color: grey;
-	
+  background-color: grey;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.nina, .edwards, .david, .michael, .anna, .sarah, .eva, .linda, .marcus, .mia {
-	height: 17em; 
+.nina,
+.edwards,
+.david,
+.michael,
+.anna,
+.sarah,
+.eva,
+.linda,
+.marcus,
+.mia {
+  /* height: 17em; 
 	width: 15em;
-	border-radius: 1em;
-	margin: 1em;
-	display: flex;
-	justify-self: center;
-	align-self: center;
-	
-	
+	border-radius: 1em; */
+  margin: 1em;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  max-width: 100%;
+  width: 30%;
+  height: auto;
 }
 .speakers {
-	display: flex;
+  /* display: flex;
+  flex-direction: column; */
+  /*padding: 6em;*/
+  /* flex-wrap: wrap; */
+  padding: 0 1rem;
+}
+
+.speakers h1 {
+  text-align: center;
+  font-size: 2em;
+}
+.text {
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+  /*width: 55%;*/
+  flex: 1;
+}
+
+.speaker {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  /*flex-direction: column;*/
+}
+.speaker p {
+  font-size: 1.3em;
+}
+
+@media (max-width: 768px) {
+  .speaker {
+    flex-direction: column;
+    align-items: center;
+	gap: 0;
+	flex-wrap: nowrap;
+  }
+
+
+  .nina,
+  .edwards,
+  .david,
+  .michael,
+  .anna,
+  .sarah,
+  .eva,
+  .linda,
+  .marcus,
+  .mia {
+    width: 100%;
+	margin: 0;
+  }
+}
+/* @media (width: 768px) {
 	flex-direction: column;
-	padding: 1em; 
-	object-fit: cover;
-	padding: 2em;
-	
-	
-}
-.speakers p {
-	justify-content: center;
-	align-items: center;
-	border: 1px solid black;
-	background-color: white;
-	border-radius: 1em;
-	padding: 1em;
-	
-	
-}
-
-.speaker-nina, .speaker-edwards, .speaker-david, .speaker-michael, .speaker-anna, .speaker-sarah, .speaker-eva, .speaker-linda, .speaker-marcus, .speaker-mia {
-	display: flex;
-	border: 1px solid black;
-	align-items: center;
-	justify-content: space-between;
-	
-	
-}
-.speaker-nina, .speaker-edwards, .speaker-david, .speaker-michael, .speaker-anna,.speaker-sarah, .speaker-eva, .speaker-linda, .speaker-marcus, .speaker-mia p {
-	font-size: 1.3em;
-}
-
-@media (max-width 1300px) {
-	.speaker-nina, .speaker-edwards, .speaker-david, .speaker-michael, .speaker-anna, .speaker-sarah, .speaker-eva, .speaker-linda, .speaker-marcus, .speaker-mia {
-	flex-direction: column
-	align-items: center }
-} 
+} */
