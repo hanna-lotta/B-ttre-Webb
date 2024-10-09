@@ -1,7 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
   background-color: grey;
   margin: 0;
-  box-sizing: border-box;
+  
 }
 
 .nina,
@@ -50,7 +54,6 @@ body {
 
 .speaker {
   display: flex;
-  border: 1px solid black;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
