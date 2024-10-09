@@ -1,0 +1,29 @@
+
+
+.formula {
+	display: flex;
+	flex-direction: column;
+	max-width: 15em;
+}
+input {
+	font-size: 1.25rem;
+	padding: 0.2em;
+	border-radius: 0.2em;
+}
+label {
+	font-weight: bold;
+}
+button {
+	padding: 0.4em;
+}
+.form-container {
+	background-color: lightseagreen;
+	padding: 2em;
+	max-width: 20em;
+	
+}
+.lindholmen {
+	width: 100%;
+	height: 30em;
+}
+
