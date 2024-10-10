@@ -9,30 +9,58 @@ body {
 	background-color: rgb(242, 235, 228);
 }
 
+.form-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.form {
+	max-width: 25em;
+	height: auto;
+	padding: 2em;
+	margin-top: 2em;
+	background-color: lightseagreen;
+	border: 1px solid black;
+	padding-inline: 3em;
+	box-shadow: 0.5em 0.5em 0.4em rgb(148, 147, 147);
+	
+}
+
 .formula {
 	display: flex;
 	flex-direction: column;
-	max-width: 15em;
+	/*max-width: 15em;*/
 }
+
+label {
+	font-weight: bold;
+}
+/*label.friday {
+	margin-right: 0.2;
+}*/
+
 input {
 	font-size: 1.25rem;
 	padding: 0.2em;
 	border-radius: 0.2em;
+	
 }
-label {
-	font-weight: bold;
+/*input#days {
+	
+}*/
+
+.ticket {
+	
+	
+	
 }
+
 button {
 	padding: 0.4em;
 }
-.form-container {
-	background-color: lightseagreen;
-	padding: 2em;
-	max-width: 20em;
-	
-	/*display: flex;
-	justify-content: center;
-	align-items: center;*/
-	
-}
+
+
 

@@ -3,18 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Bättre Webb</title>
 	<link rel="stylesheet" href="form.css">
 </head>
 <body>
 	
-	<div>
-		<h2>Köp biljetter här</h2>
-	</div>
-		
+	
 		<div class="form-container">
-		<form action="#">
-			<h2>Formulär konferens</h2>
+		<form class="form" action="#">
+			<h2>Köp biljett här</h2>
 			<p class="formula">
 				<label for="name">Namn *</label>
 				<input id="name" type="text" required>
@@ -32,12 +29,14 @@
 				<label for="konferense">Hela konferensen</label>
 				<input id="konferense" type="checkbox">
 				<p><b>Dagar på konferensen</b></Dagar></p>
+				<div class="ticket">
 				<label for="friday">Friday</label>
 				<input id="days" type="checkbox">
 				<label for="saturday">Saturday</label>
 				<input id="days" type="checkbox">
 				<label for="sunday">Sunday</label>
 				<input id="days" type="checkbox">
+			</div>
 			</div>
 			<div>
 				<p><b>Önskad mat</b></p>
@@ -47,14 +46,15 @@
 				<input id="food" type="radio" name="eat"> 
 				<label for="food">Vegetariskt</label>
 				<input id="food" type="radio" name="eat"> 
-				<p>
-					<label for="food">Eventuella allergier?<label>
-					<input id="food" type="text">
-				</p>
-			</div>
+			<p>
+				<label for="food">Eventuella allergier?<label>
+				<input id="food" type="text">
+			</p>
+			
 			<p>
 				<button>Skicka anmälan</button>
 			</p>
+		</div>
 		</form>
 	</div>
 </body>
