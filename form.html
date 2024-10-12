@@ -7,10 +7,14 @@
 	<link rel="stylesheet" href="form.css">
 </head>
 <body>
-	
+	<div>
+		
+	</div>
 	
 		<div class="form-container">
 		<form class="form" action="#">
+			<p><b>Biljettpriser för hela konferensen är 14000 kr</b></p>
+			<p><b>Dagsbiljetter per dag är 5000 kr</b></p>
 			<h2>Köp biljett här</h2>
 			<p class="formula">
 				<label for="name">Namn *</label>
@@ -24,33 +28,44 @@
 				<label for="adress">Adress *</label>
 				<input id="adress" type="text">
 			</p>
-			<div>
+			<div class="type">
 				<p><b>Biljett typ</b></p>
-				<label for="konferense">Hela konferensen</label>
+				<label for="konferense">Alt.1; Delta i hela konferensen</label>
 				<input id="konferense" type="checkbox">
-				<p><b>Dagar på konferensen</b></Dagar></p>
+				<p><b>Alt.2; Välj antal dagar du vill delta på konferensen;</b></Dagar></p>
 				<div class="ticket">
 				<label for="friday">Friday</label>
 				<input id="days" type="checkbox">
+				</div>
+				<div class="ticket">
 				<label for="saturday">Saturday</label>
 				<input id="days" type="checkbox">
+			</div>
+			<div class="ticket">
 				<label for="sunday">Sunday</label>
 				<input id="days" type="checkbox">
 			</div>
+			<div class="type">
+				<p><b>Önskad mat;</b></p>
 			</div>
-			<div>
-				<p><b>Önskad mat</b></p>
+				<div class="eat">
 				<label for="food">Kött</label>
 				<input id="food" type="radio" name="eat"> 
+			</div>
+			<div class="eat">
 				<label for="food">Fisk</label>
 				<input id="food" type="radio" name="eat"> 
+			</div>
+			<div class="eat"> 
 				<label for="food">Vegetariskt</label>
 				<input id="food" type="radio" name="eat"> 
+			</div>
+		<div class="foods">
 			<p>
 				<label for="food">Eventuella allergier?<label>
 				<input id="food" type="text">
 			</p>
-			
+		</div>
 			<p>
 				<button>Skicka anmälan</button>
 			</p>

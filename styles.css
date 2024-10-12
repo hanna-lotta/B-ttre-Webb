@@ -75,10 +75,12 @@ h1 {
 	background-color: #034b94;
 	color: white;
 	font-size: 1.1em;
+	box-shadow: 0.3em 0.3em 0.2em grey;
 	
 }
 .register:hover {
 	background-color: #4c77a1;
+	box-shadow: 0.5em 0.5em 0.4em grey;
 }
 
 

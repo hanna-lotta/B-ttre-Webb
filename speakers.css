@@ -35,6 +35,7 @@ body {
 .speakers h1 {
   text-align: center;
   font-size: 3em;
+  
 }
 .text {
   justify-content: center;
@@ -44,7 +45,7 @@ body {
   border-radius: 1em;
   padding: 1em;
   flex: 1;
-  box-shadow: 0em 0em 0.3em 0.2em lightgray;
+  box-shadow: 0em 0em 0.2em 0.1em lightgray;
 }
 
 .speaker {

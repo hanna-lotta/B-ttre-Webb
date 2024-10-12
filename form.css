@@ -9,6 +9,7 @@ body {
 	background-color: rgb(242, 235, 228);
 }
 
+
 .form-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -19,7 +20,6 @@ body {
 
 .form {
 	max-width: 25em;
-	height: auto;
 	padding: 2em;
 	margin-top: 2em;
 	background-color: lightseagreen;
@@ -28,39 +28,54 @@ body {
 	box-shadow: 0.5em 0.5em 0.4em rgb(148, 147, 147);
 	
 }
+/*.form p {
+	font-size: 1.3em;
+	
+}*/
 
 .formula {
 	display: flex;
 	flex-direction: column;
+	
 	/*max-width: 15em;*/
+}
+
+.type p {
+	font-size: 1.2em;
 }
 
 label {
 	font-weight: bold;
+	font-size: 1.2em;
 }
-/*label.friday {
-	margin-right: 0.2;
-}*/
 
+.foods {
+	font-size: 0.8em;
+}
 input {
 	font-size: 1.25rem;
 	padding: 0.2em;
 	border-radius: 0.2em;
 	
 }
-/*input#days {
-	
-}*/
 
-.ticket {
-	
+.ticket, .eat  {
+	display: block;
+	padding: 0.5em 0.5em 0.5em 0;
 	
 	
 }
+
 
 button {
 	padding: 0.4em;
+	font-size: 1em;
 }
 
-
-
+@media (min-width: 300px){
+.form-container {
+	display: flex;
+	flex-direction: column;
+	
+}
+}
