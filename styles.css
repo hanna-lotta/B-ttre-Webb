@@ -194,7 +194,7 @@ footer .contact, footer .about, footer .follow, footer .find {
 			flex-wrap: nowrap;
 	}
 }
-@media (min-width: 350px) {
+/*@media (min-width: 350px) {
 	.foot {		
 	display: flex;
 			flex-direction: column;
@@ -203,4 +203,4 @@ footer .contact, footer .about, footer .follow, footer .find {
 			gap: 0;
 			flex-wrap: nowrap;
 }
-}
+} */
