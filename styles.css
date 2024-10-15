@@ -4,9 +4,12 @@
 
 body {
 	margin: 0;
-	font-family: Arial, sans-serif;
+	font-family: Helvetica, sans-serif;
 	background-color: rgb(242, 235, 228);
+	
 }
+
+/* header */
 
 header {
 	display: flex;
@@ -14,14 +17,15 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 20px;
-	background-color: #004080;
+	background-color: rgba(60, 26, 11, 0.242);
 	color: white;
 }
-header .logo h1 {
+header .logo h2 {
 	margin: 0;
 	padding: 0;
 	display: flex;
 	gap: 20px;
+	font-size: 2em;
 }
 nav ul li {
 	display: inline;
@@ -37,6 +41,8 @@ nav ul li a:hover {
 	text-decoration: underline;
 }
 
+/* bild */
+
 .front-image {
 	background-image: url(https://www.lindholmen.se/sites/default/files/styles/wide/public/2022-05/lindholmensoftwareday_25_moderator.jpg?itok=q-vAyCYB);
 	background-size: cover;
@@ -50,16 +56,7 @@ nav ul li a:hover {
 	color: white;
 }
 
-h1 {
-	text-align: center;
-	/*background-color: rgb(36, 31, 31);*/
-	padding: 0.5em;
-	/*border-radius: 0.3em;*/
-	font-size: 2.5em;
-}
-.subtitle, .subtitle-under {
-	text-align: center;
-}
+/* knapp */
 
 .booking {
 	display: flex;
@@ -84,15 +81,32 @@ h1 {
 }
 
 
+/* rubriker + inledning */
+
+h1 {
+	text-align: center;
+	background-color: rgb(36, 31, 31);
+	opacity: 0.7;
+	padding: 0.5em;
+	font-size: 2.5em;
+}
+
+.subtitle, .subtitle-under {
+	text-align: center;
+}
+
 .introduction {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
 	flex-wrap: wrap;
-	padding: 2em;
+	padding: 3em;
 	font-size: 1.3em;
 
+}
+
+/* program */
+
+.info {
+	padding: 2em;
 }
 
 .program {
@@ -104,6 +118,12 @@ h1 {
 }
 .program ul p {
 	transition: transform 0.3s ease;
+	border: 1px solid black;
+	background-color: rgb(237, 224, 212);
+	padding: 0.5em;
+	border-radius: 0.2em;
+	box-shadow: 0.3em 0.3em 0.3em rgb(155, 153, 153);
+	margin: 0.4em;
 }
 .program ul p:hover{
 	transform: scale(1.06);
@@ -116,6 +136,15 @@ h1 {
 .program li {
 	padding: 0.5em;
 	transition: transform 0.3s ease;
+	border: 1px solid black;
+	/*background-color: rgb(232, 231, 228);*/
+	/*background-color: rgb(210, 224, 220);*/
+	/*background-color: rgb(199, 220, 219);*/
+	background-color: rgb(226, 221, 217);
+	padding: 1em;
+	border-radius: 0.2em;
+	box-shadow: 0.3em 0.3em 0.3em rgb(155, 153, 153);
+	
 }
 .program li:hover {
 	transform: scale(1.06);
@@ -153,7 +182,7 @@ footer a:hover  {
 footer .contact, footer .about, footer .follow, footer .find {
 	display: flex;
 	flex-direction: column;
-	
+	align-items: center;
 	text-align: center;
 	padding: 2.2em;
 	margin-top: 1em;
@@ -162,6 +191,10 @@ footer .contact, footer .about, footer .follow, footer .find {
 	color: #034b94;
 	margin: 0.5em;
 }
+.find a {
+	margin: 0.5em;
+}
+
 .contact a {
 	margin: 0.5em;
 }
@@ -169,6 +202,23 @@ footer .contact, footer .about, footer .follow, footer .find {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
+	margin: 1em;
+	
+}
+.follow {
+	gap: 0.2em;
+
+	
+}
+.follow img {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	gap: 0.4em;
+	
+	
+	
 	
 }
 

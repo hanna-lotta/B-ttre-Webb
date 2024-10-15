@@ -5,7 +5,7 @@
 
 body {
 	margin: 0;
-	font-family: Arial, sans-serif;
+	font-family: Helvetica, sans-serif;
 	background-color: rgb(242, 235, 228);
 }
 
@@ -16,8 +16,8 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 20px;
-	background-color: #004080;
-	color: white;
+	background-color: rgba(56, 21, 5, 0.242);
+	color: black
 }
 header .logo h1 {
 	margin: 0;
@@ -56,7 +56,7 @@ nav ul li a:hover {
 	border: 1px solid black;
 	padding-inline: 3em;
 	box-shadow: 0.5em 0.5em 0.4em rgb(148, 147, 147);
-	
+	background-color: rgb(226, 221, 217);
 }
 /*.form p {
 	font-size: 1.3em;
