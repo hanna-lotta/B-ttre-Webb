@@ -100,13 +100,25 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	padding: 2.5em;
+	
+}
+.program ul p {
+	transition: transform 0.3s ease;
+}
+.program ul p:hover{
+	transform: scale(1.06);
 }
 .program h3 {
 	text-align: center;
 	font-size: 1.5em;
 }
+
 .program li {
 	padding: 0.5em;
+	transition: transform 0.3s ease;
+}
+.program li:hover {
+	transform: scale(1.06);
 }
 .program a {
 	text-decoration: none;
@@ -131,13 +143,11 @@ footer a {
 	color: #004080;
 	text-decoration: none;
 	margin: 0 10px;
-	/*transition: text-decoration, 3s;
-	position: relative;
-	left: 0%;*/
+	
 }
 footer a:hover  {
 	text-decoration: underline;
-	/*left: 100%;*/
+	
 	
 }
 footer .contact, footer .about, footer .follow, footer .find {
@@ -162,6 +172,7 @@ footer .contact, footer .about, footer .follow, footer .find {
 	
 }
 
+/* media query*/
 
 @media (max-width: 768px) {
 .speaker {
@@ -172,11 +183,7 @@ footer .contact, footer .about, footer .follow, footer .find {
 	flex-wrap: nowrap;
 	}
 }
-@media (min-width 370px) {
-	.program {
-		
-	}
-}
+
 @media (min-width: 600px) {
 	nav ul li a {
 		align-content: center;
@@ -184,17 +191,33 @@ footer .contact, footer .about, footer .follow, footer .find {
 		gap: 0;
 		flex-wrap: nowrap;
 	}
-@media (max-width: 920px) {
-		.foot {
-			display: flex;
-			flex-direction: column;
-			align-content: center;
-			text-align: center;
-			gap: 0;
-			flex-wrap: nowrap;
-	}
 }
-/*@media (min-width: 350px) {
+
+@media (min-width:390px) {
+	header {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 20px;
+		background-color: #004080;
+		color: white;
+}
+}
+
+@media (min-width:940px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 20px;
+		background-color: #004080;
+		color: white;
+}
+}
+
+@media (min-width: 350px) {
 	.foot {		
 	display: flex;
 			flex-direction: column;
@@ -203,4 +226,14 @@ footer .contact, footer .about, footer .follow, footer .find {
 			gap: 0;
 			flex-wrap: nowrap;
 }
-} */
+} 
+@media (min-width: 600px) {
+	.foot {
+		display: flex;
+		flex-direction: row;
+		align-content: center;
+		text-align: center;
+		gap: 0;
+		/*flex-wrap: nowrap;*/
+}
+}
