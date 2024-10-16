@@ -122,31 +122,29 @@ h1 {
 	font-size: 1.5em;
 }
 
-.program ul p {
+
+.program .break {
 	transition: transform 0.3s ease;
-	
 	background-color: rgb(237, 224, 212);
 	padding: 0.5em;
 	border-radius: 0.2em;
 	box-shadow: 0.3em 0.3em 0.3em rgb(155, 153, 153);
-	margin: 0.4em;
+	margin: 0.3em;
 }
-.program ul p:hover{
+.program p:hover{
 	transform: scale(1.06);
 }
 
-.program li {
+.program .seminar {
 	padding: 0.5em;
 	transition: transform 0.3s ease;
 	background-color: rgb(226, 221, 217);
 	padding: 1em;
 	border-radius: 0.2em;
 	box-shadow: 0.3em 0.3em 0.3em rgb(155, 153, 153);
-	
+	margin: 0.4em;
 }
-.program li:hover {
-	transform: scale(1.06);
-}
+
 .program a {
 	text-decoration: none;
 }
@@ -243,9 +241,8 @@ footer .contact, footer .about, footer .follow, footer .find {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		text-align: center;
 		flex-wrap: wrap;
-		padding: 20px;
-		background-color: #004080;
 		color: white;
 }
 }
@@ -257,7 +254,6 @@ footer .contact, footer .about, footer .follow, footer .find {
 		align-items: center;
 		flex-wrap: wrap;
 		padding: 20px;
-		background-color: #004080;
 		color: white;
 }
 }
@@ -279,6 +275,6 @@ footer .contact, footer .about, footer .follow, footer .find {
 		align-content: center;
 		text-align: center;
 		gap: 0;
-		/*flex-wrap: nowrap;*/
+		
 }
 }
