@@ -246,6 +246,20 @@ footer .contact, footer .about, footer .follow, footer .find {
 		color: white;
 }
 }
+.logo {
+	display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+}
+nav ul li a {
+	align-content: center;
+	text-align: center;
+	gap: 0;
+	flex-wrap: nowrap;
+	padding: 0.2em;
+}
+
 
 @media (min-width:940px) {
 	header {
