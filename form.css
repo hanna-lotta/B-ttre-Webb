@@ -16,7 +16,7 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 20px;
-	background-color: rgba(56, 21, 5, 0.242);
+	background-color: rgba(21, 9, 4, 0.242);
 	color: black
 }
 header .logo h1 {
@@ -24,6 +24,7 @@ header .logo h1 {
 	padding: 0;
 	display: flex;
 	gap: 20px;
+	color: white;
 }
 nav ul li {
 	display: inline;
@@ -32,7 +33,7 @@ nav ul li {
 nav ul li a {
 	color: white;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 18px;
 	padding: 0.5em;
 }
 nav ul li a:hover {

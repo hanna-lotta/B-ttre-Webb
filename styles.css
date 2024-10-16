@@ -17,7 +17,7 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 20px;
-	background-color: rgba(60, 26, 11, 0.242);
+	background-color: rgba(21, 9, 4, 0.242);
 	color: white;
 }
 header .logo h2 {
@@ -34,7 +34,7 @@ nav ul li {
 nav ul li a {
 	color: white;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 18px;
 	padding: 0.5em;
 }
 nav ul li a:hover {
@@ -116,9 +116,15 @@ h1 {
 	padding: 2.5em;
 	
 }
+
+.program h3 {
+	text-align: center;
+	font-size: 1.5em;
+}
+
 .program ul p {
 	transition: transform 0.3s ease;
-	border: 1px solid black;
+	
 	background-color: rgb(237, 224, 212);
 	padding: 0.5em;
 	border-radius: 0.2em;
@@ -128,18 +134,10 @@ h1 {
 .program ul p:hover{
 	transform: scale(1.06);
 }
-.program h3 {
-	text-align: center;
-	font-size: 1.5em;
-}
 
 .program li {
 	padding: 0.5em;
 	transition: transform 0.3s ease;
-	border: 1px solid black;
-	/*background-color: rgb(232, 231, 228);*/
-	/*background-color: rgb(210, 224, 220);*/
-	/*background-color: rgb(199, 220, 219);*/
 	background-color: rgb(226, 221, 217);
 	padding: 1em;
 	border-radius: 0.2em;
@@ -215,10 +213,7 @@ footer .contact, footer .about, footer .follow, footer .find {
 	width: 40px;
 	height: 40px;
 	display: flex;
-	gap: 0.4em;
-	
-	
-	
+	gap: 0.4em;	
 	
 }
 
