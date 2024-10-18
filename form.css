@@ -101,7 +101,12 @@ input[type=text]:valid{
 	background-color: rgb(170, 234, 170);
 }
 
-input[type=text]:invalid {
+input[type=text]:invalid:focus {
+	background-color: rgb(243, 173, 173);
+}
+
+input[type=text]:invalid:focus, 
+input:invalid:focus ~ input{
 	background-color: rgb(243, 173, 173);
 }
 
