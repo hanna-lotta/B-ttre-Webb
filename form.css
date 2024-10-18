@@ -9,6 +9,7 @@ body {
 	background-color: rgb(242, 235, 228);
 }
 
+/*header*/
 
 header {
 	display: flex;
@@ -39,7 +40,7 @@ nav ul li a {
 nav ul li a:hover {
 	text-decoration: underline;
 }
-
+/* formulär*/
 
 .form-container {
 	display: flex;
@@ -180,8 +181,9 @@ footer .contact, footer .about, footer .follow, footer .find {
 	height: 40px;
 	display: flex;
 	gap: 0.4em;	
-	
 }
+
+/*media query*/
 
 @media (min-width: 300px){
 .form-container {

@@ -270,45 +270,6 @@ nav ul li a {
 }
 }
 
-
-/*@media (min-width:390px) {
-	header {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		flex-wrap: wrap;
-		
-}
-
-.logo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	padding-left: 1.2em;
-}
-
-nav ul li a {
-	align-content: center;
-	text-align: center;
-	gap: 0;
-	flex-wrap: nowrap;
-	padding: 0.2em;
-}
-}
-
-@media (min-width:940px) {
-	header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		flex-wrap: wrap;
-		padding: 20px;
-		color: white;
-}
-}
-*/
 @media (min-width: 350px) {
 	.foot {		
 	display: flex;
