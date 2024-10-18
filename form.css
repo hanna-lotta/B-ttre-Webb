@@ -97,6 +97,17 @@ input[type=radio] {
 	width: 0.8em;
 	height: 0.8em;
 }
+input[type=text]:valid{
+	background-color: rgb(170, 234, 170);
+}
+
+input[type=text]:invalid {
+	background-color: rgb(243, 173, 173);
+}
+
+input[type=text]:optional {
+	background-color: white;
+}
 
 button {
 	padding: 0.4em;

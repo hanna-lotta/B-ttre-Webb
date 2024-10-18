@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bättre Webb</title>
 	<link rel="stylesheet" href="form.css">
+	<link rel="stylesheet" href="index.html">
+	<link rel="stylesheet" href="speakers.html">
 </head>
 <body>
 	<header>
@@ -13,9 +15,9 @@
 		</div>
 		<nav>
 			<ul>
-				<li><a href="#home">Hem</a></li>
+				<li><a href="index.html">Hem</a></li>
 				<li><a href="#about">Om oss</a></li>
-				<li><a href="#speakers">Talare</a></li>
+				<li><a href="speakers.html">Talare</a></li>
 				<li><a href="#contact">Kontakt</a></li>
 			</ul>
 		</nav>
@@ -27,23 +29,23 @@
 			<h2>Köp biljett här</h2>
 			<p class="formula">
 				<label for="name">Namn *</label>
-				<input id="name" type="text" required>
+				<input id="name" type="text" required minlength="2">
 			</p>
 			<p class="formula">
 				<label for="e-mail">E-post *</label>
-				<input id="e-mail" type="text" required minlength="5">
+				<input id="e-mail" type="text" required minlength="6">
 			</p>
 			<p class="formula">
 				<label for="adress">Adress *</label>
-				<input id="adress" type="text">
+				<input id="adress" type="text" required minlength="6">
 			</p>
 			<div class="type">
 				<p><b>Biljett typ;</b></p>
 				<label for="konferense">Alt.1; Delta i hela konferensen</label>
 				<input id="konferense" type="checkbox">
-				<p><b>Pris 14 000 kr</b></p>
+				<p><b>Pris 14 000 kr inkl. mat</b></p>
 				<p><b>Alt.2; Välj antal dagar du vill delta på konferensen;</b></Dagar></p>
-				<p><b>Pris 5000 kr per dag</b></p>
+				<p><b>Pris 5000 kr per dag inkl. mat</b></p>
 				<div class="ticket">
 				<label for="friday">Friday</label>
 				<input id="friday" type="checkbox">
@@ -74,7 +76,7 @@
 		<div class="foods">
 			<p>
 				<label for="food">Eventuella allergier?<label>
-				<input id="food" type="text">
+				<input id="food" type="text" optional>
 			</p>
 		</div>
 			<p>
