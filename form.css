@@ -16,8 +16,8 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 20px;
-	background-color: rgba(35, 15, 6, 0.242);
-	color: black
+	background-color: rgba(34, 15, 6, 0.242);
+	
 }
 header .logo h1 {
 	margin: 0;
@@ -57,10 +57,7 @@ nav ul li a:hover {
 	padding-inline: 3em;
 	box-shadow: 0.5em 0.5em 0.4em rgb(148, 147, 147);
 	background-color: rgb(208 194 184);
-	
 }
-
-
 .formula {
 	display: flex;
 	flex-direction: column;
@@ -90,9 +87,16 @@ input {
 	display: block;
 	padding: 0.5em 0.5em 0.5em 0;
 	
-	
 }
 
+input[type=checkbox] {
+	width: 0.8em;
+	height: 0.8em;
+}
+input[type=radio] {
+	width: 0.8em;
+	height: 0.8em;
+}
 
 button {
 	padding: 0.4em;
