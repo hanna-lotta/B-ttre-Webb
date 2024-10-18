@@ -17,7 +17,7 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 20px;
-	background-color: rgba(21, 9, 4, 0.242);
+	background-color: rgb(109, 91, 84);
 	color: white;
 }
 header .logo h2 {
@@ -145,12 +145,7 @@ h1 {
 	margin: 0.4em;
 }
 
-.program a {
-	text-decoration: none;
-}
-.program a:hover  {
-	text-decoration: underline;
-}
+
 /* Footer*/
 
 footer {

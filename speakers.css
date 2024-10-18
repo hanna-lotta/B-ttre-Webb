@@ -16,7 +16,7 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 20px;
-	background-color: rgba(18, 7, 2, 0.203);
+	background-color: rgb(109, 91, 84);
 	color: white;
 }
 header .logo h1 {
