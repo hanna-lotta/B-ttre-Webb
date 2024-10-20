@@ -194,29 +194,22 @@ footer .contact, footer .about, footer .follow, footer .find {
 }
 
 @media (min-width: 600px) {
-	nav ul li a {
-		align-content: center;
-		text-align: center;
-		gap: 0;
-		flex-wrap: nowrap;
+nav ul li a {
+	align-content: center;
+	text-align: center;
+	gap: 0;
+	flex-wrap: nowrap;
 	}
 }
 
 @media (min-width:390px) {
-	header {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		flex-wrap: wrap;
-		padding: 1em;
-}
-
-.logo {
+header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	flex-wrap: wrap;
+	padding: 1em;
 }
 nav ul li a {
 	align-content: center;
@@ -225,6 +218,14 @@ nav ul li a {
 	padding: 0.2em;
 }
 }
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
 
 @media (min-width:940px) {
 	header {
